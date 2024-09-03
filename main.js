@@ -69,7 +69,7 @@ function agregarProducto() {
 
 
 
-// ACTIVAR FUNCION AGREGARPRODUCTO AL HACER CLICK EN EL BOTON
+// ACTIVAR FUNCION AGREGARPRODUCTO AL HACER CLICK EN EL BOTON//
 let boton = document.getElementById ("btn-agregar");
 boton.addEventListener("click", agregarProducto);
 
