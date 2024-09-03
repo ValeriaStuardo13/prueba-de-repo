@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pre-entrega 2 Valeria Stuardo</title>
+</head>
+<body>
+   <h1 class="titulo-pag"> Aromas</h1>
+   <h3 class="subtitulo-pag"> Stock tienda de velas aromaticas</h3>
+
+    <div class="formulario">      
+        <form action="form.php" method="post" class="formulario-stock">
+            <label class="label-nombre">Nombre del producto</label>
+            <input type="text" id="input-nombre">
+
+            <label class="label-precio">Precio del producto</label>
+            <input type="number" id="input-precio">
+
+            
+            <label class="label-cantidad">Cantidad del producto</label>
+            <input type="number" id="input-cantidad">
+            <!--<textarea name="mensaje" id="mensaje" cols="100" rows="5" placeholder="Hola! Me gustaría inscribirme a una clase"></textarea>
+        -->
+            <button id="btn-agregar" type="submit">Agregar Stock</button>
+        </form>
+    </div>
+
+    <div id="resumenStock">
+        <h2 id="titulo-stock">Stock Velas</h2>
+        <ul id="stock-actual"></ul>
+
+
+    </div>
+
+   
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
